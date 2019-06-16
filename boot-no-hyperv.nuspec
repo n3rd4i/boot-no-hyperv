@@ -3,6 +3,8 @@
   <metadata>
     <id>boot-no-hyperv</id>
     <version>0.1.0</version>
+    <projectUrl>https://github.com/n3rd4i/boot-no-hyperv.git</projectUrl>
+    <iconUrl>https://cdn.statically.io/img/icons.iconarchive.com/icons/icons8/windows-8/96/Computer-Hardware-Restart-icon.png</iconUrl>
     <title>boot-no-hyperv (Install)</title>
     <authors>n3rd4i</authors>
     <tags>boot-no-hyperv no hyperv</tags>
