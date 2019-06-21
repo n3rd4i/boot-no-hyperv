@@ -2,6 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>boot-no-hyperv</id>
+    <packageSourceUrl>https://github.com/n3rd4i/boot-no-hyperv.git</packageSourceUrl>
     <version>0.1.0</version>
     <projectUrl>https://github.com/n3rd4i/boot-no-hyperv.git</projectUrl>
     <iconUrl>https://cdn.statically.io/gh/n3rd4i/boot-no-hyperv/master/assets/boot-no-hyperv.png</iconUrl>
@@ -9,7 +10,17 @@
     <authors>n3rd4i</authors>
     <tags>boot-no-hyperv no hyperv</tags>
     <summary>boot disable hyperv</summary>
-    <description>This package set's up boot option without hyper-v </description>
+    <description>
+    
+    This package provides cloned boot option (from current boot option) but only without hyper-v.
+
+    To verify the boot options write open `msconfig` (in windows run, keys WIN+RUN).
+
+    In `Boot` tab section you will see the [updated] list of boot options, e.g:
+    * Windows 10 (C:\WINDOWS)
+    * Disable Hyper-V (C:\WINDOWS): Current OS; Default OS
+
+    </description>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
